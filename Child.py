@@ -14,7 +14,7 @@ class Child(object):
         self.couple_ranks = copy
         print self.couple_ranks
 
-with open('fresher.csv', mode='r') as infile:
+with open('freshers.csv', mode='r') as infile:
     reader = csv.reader(infile)
     CHILDREN = []
     for name, gender, college, course in reader:
